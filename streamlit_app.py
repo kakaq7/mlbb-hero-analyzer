@@ -50,7 +50,7 @@ if hero_data:
             status = "🔸 Perlu evaluasi lebih lanjut"
             insight = f"{hero} berada di bawah win rate ideal. Sebaiknya uji kembali atau evaluasi gaya main."
         else:
-            status = "🔴 Hindari push dengan hero ini"
+            status = "🔴 ojo push nganggo hero iki"
             insight = f"{hero} punya win rate rendah ({win_rate:.1f}%). Tidak disarankan untuk push, kecuali kamu yakin dengan performanya."
 
         st.markdown(f"### {hero} — {status}")
